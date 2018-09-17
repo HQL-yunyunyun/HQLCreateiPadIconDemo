@@ -17,9 +17,8 @@ BOOL CGImageWriteToFile(CGImageRef image, NSString *path);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
         NSString *pngDirectory = @"/Users/heqiliang/Desktop/pngDirectory";
-        // 遍历目录下所有@3x的png图片
+         // 遍历目录下所有@3x的png图片
         NSFileManager *fileManager = [NSFileManager defaultManager];
         
         NSError *contentError = nil;
